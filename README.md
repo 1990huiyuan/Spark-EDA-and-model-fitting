@@ -12,19 +12,10 @@ The problem is to create a machine learning model to predict the user intent to 
 ## Files in this repo
 
 
-Trained_models: A folder contains the trained models.
-DecisionTreeClassifier.model
-GradientBoostedTrees.model
-LogisticRegression.model
-RandomForestClassifier.model
-
-
 Sparkify.ipynb: The main coding file in jypyter notebook format to work in Udacity workspace.
 Sparkify.html: an HTML file for the jupyter workbook
 README.md: This file.
-saved_user_dataset.CSV: The extracted dataset for machine learning in spark format
 saved_user_dataset_pd.CSV: The extracted dataset for machine learning in csv format
-mini_sparkify_event_data.json: A 128MB json file contains the main data (exceeds GitHub limit)
 
 
 ## Used resources
