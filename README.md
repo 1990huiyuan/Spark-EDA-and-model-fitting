@@ -12,15 +12,15 @@ The problem is to create a machine learning model to predict the user intent to 
 ## Files in this repo
 
 
-Sparkify.ipynb: The main coding file in jypyter notebook format to work in Udacity workspace.
-Sparkify.html: an HTML file for the jupyter workbook
-README.md: This file.
-saved_user_dataset_pd.CSV: The extracted dataset for machine learning in csv format
+* Sparkify.ipynb: The main coding file in jypyter notebook format to work in Udacity workspace.
+* Sparkify.html: an HTML file for the jupyter workbook
+* README.md: This file.
+* saved_user_dataset_pd.CSV: The extracted dataset for machine learning in csv format
 
 
 ## Used resources
-Python 3.6.x (The programing language)
-pySpark 2.4.x (Machine learning library for big data)
-matplotlib 3.03 (A plotting library)
-pandas 0.23 (numerical calculations library)
-jupyter (The programming notebook interface)
+* Python 3.6.x (The programing language)
+* pySpark 2.4.x (Machine learning library for big data)
+* matplotlib 3.03 (A plotting library)
+* pandas 0.23 (numerical calculations library)
+* jupyter (The programming notebook interface)
