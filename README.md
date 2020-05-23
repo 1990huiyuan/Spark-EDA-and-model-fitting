@@ -24,3 +24,12 @@ The problem is to create a machine learning model to predict the user intent to 
 * matplotlib 3.03 (A plotting library)
 * pandas 0.23 (numerical calculations library)
 * jupyter (The programming notebook interface)
+
+
+## Conclusions
+The machine learning modeling succeeded in predicting the customers' activity that will most probably end in unsubscribing. Despite the good results of all the models, the Decision Tree Classifier model appears to be the best here. However, the other models need to be re-adjusted using different settings to reduce the overfitting.
+
+## Potential improvements
+* Working with more observations by increasing the dataset size (which is possible in our case by working with the 12GB full dataset)
+* Trying more parameters of the selected models.
+* Adding some more features that I believe essential, like the customer location (city/state). The customers of some states appear to have more ability to churn than others; this might be attributed to the nature of life there, some lifestyle profiles force people to be rapidly bored, and thus they like to change the services they use, and trying to try other services. On the other hand, peaceful environment make people settled with what they have and resist change.
