@@ -26,8 +26,11 @@ The problem is to create a machine learning model to predict the user intent to 
 * jupyter (The programming notebook interface)
 
 
-## Conclusions
-The machine learning modeling succeeded in predicting the customers' activity that will most probably end in unsubscribing. Despite the good results of all the models, the Decision Tree Classifier model appears to be the best here. However, the other models need to be re-adjusted using different settings to reduce the overfitting.
+## Summmaries and conclusion
+* This capstone project is a great exercise allowing to put in practice several data science skills (data analysis, cleaning, feature extraction, machine learning pipeline creation, model evaluation and fine tuning…) to solve a problem close to those regularly encountered by customer-facing businesses.
+* We could get a F1-score of 0.7 for churn prediction using a default classifier algorithm, and 0.73 after fine-tuning; these numbers are relatively good, though not great, maybe because we only have 225 distinct users in our subset.
+* This project allowed us to familiarize with Spark; one of the outstanding features of this framework is SQL support, which (even though some limitations exist) is very powerful and enables us to explore data and extract features in a pretty convenient way.
+* Next step would be to see how our results extend to the whole dataset (12GB); since all dataset manipulation and machine learning steps were written using Spark framework, we can expect to leverage its distributed cluster-computing capabilities to tackle the big data challenge.
 
 ## Potential improvements
 * Working with more observations by increasing the dataset size (which is possible in our case by working with the 12GB full dataset)
